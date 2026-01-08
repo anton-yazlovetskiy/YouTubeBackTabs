@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "YouTubeTabs Pro",
+  "name": "YouTube Bacground Tabs Open",
   "version": "1.3",
   "description": "Фоновое открытие видео и автоматическая скорость.",
   "permissions": ["tabs", "storage", "contextMenus"],
@@ -10,6 +10,9 @@
   },
   "background": {
     "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
   },
   "content_scripts": [
     {
